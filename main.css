@@ -1,6 +1,10 @@
 body{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin:0;
+    font-family:  'Poppins', sans-serif;
+    
+    
+    
     
 
 }
@@ -11,7 +15,7 @@ body{
     justify-content: center;
     width:1280px;
     height:720px;
-    background-color: red;
+    background-color: #ffffff;
     margin-left:calc(50% - 640px);
 
 }
@@ -19,7 +23,7 @@ body{
 .column{
      width: 263px;
      height: 502px;
-     background-color: yellow;
+     background-color: rgb(255, 255, 255);
      position:relative;
 } 
 
@@ -32,21 +36,96 @@ body{
         margin:0;
         width:65px;
         height:65px;
-        background-color: white;
+        background-color: rgb(228, 220, 215);
         border-radius: 50%;
-        border:aqua 4px solid;
+        border:rgb(255, 255, 255) 4px solid;
         position:absolute;
         top:0px;
         left:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* sriftas skaiciuko*/
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
 
     }
 
+    .one{
+        border-color: rgb(255, 255, 255);
+        color:#ffffff
+   
+
+     }
+
+     .two {
+        border-color: rgb(255, 255, 255);
+        color: rgb(250, 247, 247);
+     }
+
+     .three{
+        border-color: rgb(252, 252, 252);
+        color: rgb(255, 255, 255)
+
+     }
+      
+     .four{
+        background-color: rgb(234, 227, 227);
+        color: rgb(255, 252, 252);
+
+
+     }
     .icon{
         width:230px;
         height:230px;
         margin-top:32px;
         margin-left:33px;
-        background-color: bisque;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
         
 
     }
+        
+.rocket-home{
+    background-color: darkgoldenrod;
+
+    }
+
+    .head-home{
+        background-color: aqua;
+    }
+
+
+    .head{
+        width: 70%;
+        
+    }
+
+        .rocket{
+            background-color: rgb(237, 55, 10);
+            
+        
+        
+        width: 80%;
+        /* margin-top: 32px;
+        margin-left:33px ;  */
+        
+
+    }
+    
+    .people{
+        width:100;
+        background-color: black;
+
+        }
+        .arrow{
+
+
+        }
